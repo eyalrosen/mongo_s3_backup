@@ -1,0 +1,6 @@
+{
+	"name": "mongo-backup-s3",
+	"scripts": {
+		"postinstall": "npm install -g mongodb_s3_backup; node mongo-s3-backup/generate_config.js"
+	}
+}
